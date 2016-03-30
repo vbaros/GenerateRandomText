@@ -1,0 +1,16 @@
+﻿<Application x:Class="GenerateRandomText.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:GenerateRandomText"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="MinHeight" Value="23"/>
+            <Setter Property="MinWidth" Value="75"/>
+            <Setter Property="Margin" Value="3.5,0,3.5,7"/>
+        </Style>
+        <Style TargetType="FrameworkElement">
+            <Setter Property="MinHeight" Value="23"/>
+        </Style>
+    </Application.Resources>
+</Application>
